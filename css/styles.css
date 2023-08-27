@@ -209,12 +209,15 @@ header, main, footer {
 }
 
 .header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
     display: flex;
     justify-content:space-between;
     align-items:center ;
     padding: 0 156px 0 156px;
     height: 72px;
-    border-bottom: 1px solid #e7e9fc;
 }
 .header .nav {
     display: flex;
