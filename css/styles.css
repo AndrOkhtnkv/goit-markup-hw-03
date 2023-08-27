@@ -212,7 +212,7 @@ header, main, footer {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container {
     display: flex;
     justify-content:space-between;
     align-items:center ;
