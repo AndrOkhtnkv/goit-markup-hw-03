@@ -1,3 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -12,6 +50,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo span {
     color:  #2E2F42;
@@ -41,6 +80,7 @@ body {
 
 
 .section_one {
+    
     background-color:#2e2f42;
 }
 
@@ -146,4 +186,41 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+header, main, footer {
+    width: 1440px;
+    border: 1px dashed red;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 0 156px 0 156px;
+    height: 72px;
+}
+header .nav {
+    display: flex;
+}
+
+.nav-list  {
+    width: 261px;
+    display: flex;
+    justify-content:space-between;
+    border: 1px dashed red;
+}
+
+.contacts-list {
+    width: 344px;
+    display: flex;
+    justify-content:space-between;
+    border: 1px dashed red;
 }
