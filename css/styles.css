@@ -134,7 +134,7 @@ body {
 }
 
 .section_three {
-    border: 1px dashed red;
+    
     background-color: #F4F4FD;
 }
 
@@ -212,7 +212,7 @@ body {
 
 header, main, footer {
     width: 1440px;
-    border: 1px dashed red;
+    
 }
 
 header {
@@ -230,14 +230,14 @@ header .nav {
     width: 261px;
     display: flex;
     justify-content:space-between;
-    border: 1px dashed red;
+    
 }
 
 .contacts-list {
     width: 344px;
     display: flex;
     justify-content:space-between;
-    border: 1px dashed red;
+    
 }
 
 .section_two {
@@ -246,7 +246,7 @@ header .nav {
 .section_two_list {
     display: flex;
     justify-content:space-between;
-    border: 1px dashed red;
+    
 }
 .section_two_list_item {
     width: 264px;
@@ -266,7 +266,7 @@ header .nav {
     margin-top: 72px;
     display: flex;
     
-    /* border: 1px dashed red; */
+    
     justify-content:space-between;
 }
 .section_three_list-item {
@@ -285,13 +285,46 @@ header .nav {
 .section_four {
     padding: 120px 156px 120px 156px;
 }
-
+.section_four_h_two {
+    margin-bottom: 48px;
+}
 .section_four_list {
+    margin: auto;
+    width: 1128px;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     
 }
 .section_four_list_item {
+    margin-top: 24px;
+    border: 1px solid #E7E9FC;
     width: 360px;
     height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
+
+.section_four_list-item_header {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.section_four_list-item_header, 
+.section_four_list-item_paragraph {
+    padding: 0 16px 0 16px;
+}
+
+
+.footer {
+
+    height: 312px;
+    padding: 101.5px 156px 0px 156px;
+
+}
+
+.footer-paragraph {
+    margin-top: 17.5px;
+    width: 264px;
+}
+
