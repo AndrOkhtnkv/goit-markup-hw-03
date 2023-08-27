@@ -40,6 +40,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    
 }
 
 .logo {
@@ -51,6 +52,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    align-self: center;
 }
 .logo span {
     color:  #2E2F42;
@@ -278,4 +280,18 @@ header .nav {
 .section_three_list-item_header {
     margin-top: 32px;
     margin-bottom: 8px;
+}
+
+.section_four {
+    padding: 120px 156px 120px 156px;
+}
+
+.section_four_list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section_four_list_item {
+    width: 360px;
+    height: 420px;
 }
