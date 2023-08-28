@@ -45,6 +45,8 @@ body {
     color: #4d5ae5;
     margin-right: 76px;
     align-self: center;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo span {
     color:  #2E2F42;
@@ -336,14 +338,7 @@ nav {
 .footer {
     padding: 100px 0;
 }
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
 
-.footer .logo  {
-    
-}
 .footer-paragraph {
     max-width: 264px;
 }
