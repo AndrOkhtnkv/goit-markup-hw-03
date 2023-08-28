@@ -307,7 +307,7 @@ nav {
     text-align: center;
 }
 .section_four {
-    padding-top: 120px;
+    padding: 120px 0 120px 0;
 }
 .section_four_h_two {
     margin-bottom: 72px;
@@ -330,4 +330,18 @@ nav {
 }
 .section_four_list-item_header {
     margin-bottom: 8px;
+}
+
+
+.footer {
+    padding: 100px 0;
+}
+.footer .logo {
+    display: inline-block;
+}
+.footer .logo a {
+    margin-bottom: 16px;
+}
+.footer-paragraph {
+    max-width: 264px;
 }
