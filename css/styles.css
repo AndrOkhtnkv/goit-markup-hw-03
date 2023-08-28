@@ -336,7 +336,7 @@ nav {
 .footer {
     padding: 100px 0;
 }
-.footer .logo a {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
