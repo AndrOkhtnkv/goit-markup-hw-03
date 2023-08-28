@@ -204,7 +204,6 @@ img {
 }
 .container {
     width:1158px;
-    border: 1px dashed red;
     margin: 0 auto;
     padding: 0 15px;
 }
