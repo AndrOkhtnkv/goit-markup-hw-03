@@ -336,11 +336,12 @@ nav {
 .footer {
     padding: 100px 0;
 }
-.footer .logo {
-    display: inline-block;
-}
 .footer .logo a {
+    display: inline-block;
     margin-bottom: 16px;
+}
+.footer .logo  {
+    
 }
 .footer-paragraph {
     max-width: 264px;
