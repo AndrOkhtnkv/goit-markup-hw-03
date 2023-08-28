@@ -195,7 +195,27 @@ body {
     letter-spacing: 0.02em;
 }
 
+img {
+    display: block;
+}
 
 
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 
-
+.container {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
