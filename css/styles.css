@@ -220,11 +220,14 @@ nav {
     display: flex;
     gap: 40px;
 }
+.nav-item {
+    padding: 24px 0;
+}
 .contacts-item {
     padding: 24px 0;
 }
 .contacts-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
