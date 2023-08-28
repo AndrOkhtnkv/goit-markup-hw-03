@@ -202,6 +202,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc
+    
 }
 
 .container {
@@ -219,15 +220,36 @@ nav {
 .nav-list {
     display: flex;
     gap: 40px;
+    
 }
 .nav-item {
     padding: 24px 0;
 }
 .contacts-item {
     padding: 24px 0;
+   
 }
 .contacts-list {
     display: flex;
     gap: 40px;
     
+}
+
+
+.section_one {
+    padding: 188px 0;
+}
+
+.section_one_h_one {
+    max-width: 496px;
+}
+
+.section_one_btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
