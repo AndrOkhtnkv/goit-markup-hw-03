@@ -282,3 +282,27 @@ nav {
 .section_two_h_three {
     margin-bottom: 8px;
 }
+.section_three {
+    padding: 120px 0;
+}
+.section_three_h_two {
+    margin-bottom: 72px;
+}
+.section_three_list {
+    display: flex;
+    gap: 24px;
+}
+.section_three_list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.section_three_list-item_info {
+    padding: 32px 0;
+}
+.section_three_list-item_header {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section_three_list-item_paragraph {
+    text-align: center;
+}
