@@ -320,6 +320,8 @@ nav {
     column-gap: 24px;
     row-gap: 48px;
 }
+
+
 .section_four_list_item {
     width: calc((100% - 48px) / 3);
 }
