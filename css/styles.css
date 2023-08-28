@@ -208,11 +208,19 @@ img {
     display: flex;
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 nav {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.contacts-item {
     padding: 24px 0;
 }
 .contacts-list {
