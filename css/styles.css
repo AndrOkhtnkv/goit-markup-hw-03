@@ -58,6 +58,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
+}
+header .logo {
+    margin-right: 76px;
 }
 .logo span {
     color:  #2E2F42;
@@ -68,6 +72,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 .nav-item:hover, .nav-item:focus {
     color: #404bbf;
@@ -197,10 +203,8 @@ img {
 
 .header-container {
     display: flex;
-    height: 72px;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
 }
 .container {
     width:1158px;
@@ -213,16 +217,10 @@ img {
     align-items: center;
 }
 
-.logo {
-    margin-right: 76px;
-}
+
 .header-nav-menu {
     display: flex;
     gap: 40px;
-}
-
-.nav-item {
-    
 }
 
 .contacts-list {
